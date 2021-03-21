@@ -1,0 +1,29 @@
+.dd-Va,
+div[aria-label="Add to Chrome"],
+div[aria-label="More extensions"],
+div[aria-label="Remove from Chrome"],
+div[aria-label="View all"] {
+  border-color: #3466E0 !important;
+  border-radius: 2px !important;
+  background-color: #3475E0 !important;
+  background-image: -webkit-linear-gradient(top,#3475E0 0%,#3475E0 100%) !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2) !important;  
+}
+.dd-Va:hover,
+div[aria-label="Add to Chrome"]:hover,
+div[aria-label="More extensions"]:hover,
+div[aria-label="Remove from Chrome"]:hover,
+div[aria-label="View all"]:hover,
+ {
+  background-image: -webkit-linear-gradient(top,#3466E0 0%,#3466E0 100%) !important;
+}
+.dd-Va:active,
+div[aria-label="Add to Chrome"]:active,
+div[aria-label="More extensions"]:active,
+div[aria-label="Remove from Chrome"]:active,
+div[aria-label="View all"]:active {
+  box-shadow: none !important;
+}
+.webstore-test-button-label {
+	color:white !important;
+}
